@@ -12,5 +12,16 @@
 ## [28-Dec-20]
 
 - setup the FastAPI + WebSockets + Celery + SQS + DyanamoDB project
+- https://github.com/tiangolo/full-stack-fastapi-postgresql/tree/master/%7B%7Bcookiecutter.project_slug%7D%7D/backend
+- https://fastapi.tiangolo.com/tutorial/bigger-applications/
 - finish the socket file transfer from the client (next.js app) and backend (aws lambda)
 - setup FastAPI and WebSockets with AWS Lambda
+
+## [29-Dec-20]
+
+- setup EFS with all the dependencies
+- write the training code that will be executed by celery
+
+## [31-Dec-20]
+
+- setup Docusarous

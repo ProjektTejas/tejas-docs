@@ -1,7 +1,5 @@
 # Overview
 
-Date: `13 Dec 2020`
-
 - What all do i need for Celery
   - [https://docs.celeryproject.org/en/stable/getting-started/introduction.html#what-do-i-need](https://docs.celeryproject.org/en/stable/getting-started/introduction.html#what-do-i-need)
   - Amazon SQS
