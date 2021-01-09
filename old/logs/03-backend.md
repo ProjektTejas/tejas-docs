@@ -11,3 +11,5 @@ Another benefit of this is that the remaining 500MB can be used to temporarily s
 - https://stackoverflow.com/questions/62935465/how-to-install-large-dependencies-on-aws-efs-via-serverless-framework
 - https://lumigo.io/blog/unlocking-more-serverless-use-cases-with-efs-and-lambda/
 - This is really nice !: https://aws.amazon.com/blogs/aws/new-a-shared-file-system-for-your-lambda-functions/
+- This too: https://aws.amazon.com/blogs/compute/building-deep-learning-inference-with-aws-lambda-and-amazon-efs/
+- Use the `lambci/lambda` and create the python dependencies, then transfer then over to an EC2 instance attached with the EFS storage via SCP.
