@@ -3,7 +3,7 @@
 ---
 
 <div align="center">
-<img src="../tejas-docs/static/logo/logo-whitemdpi.png" >
+<img src="static/logo/logo-whitemdpi.png" >
 </div>
 
 > Tejas (तेजस) means brain, flame, glow, radiance (just like my models :p)
