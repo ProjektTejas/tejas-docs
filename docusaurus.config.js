@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Tejas.AI Docs',
   tagline: 'Making AI Fast and Accesible',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://tejas.tensorclan.tech/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -74,15 +74,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/ProjektTejas/tejas-docs/edit/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/ProjektTejas/tejas-docs/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
