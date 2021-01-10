@@ -15,6 +15,8 @@ This repository is simply the docs for my website, like usage, journey, how it w
 ![maintainer](https://img.shields.io/badge/maintainer-shadowleaf-blue)
 ![GitHub stars](https://img.shields.io/github/stars/ProjektTejas/tejas-docs?style=social)
 
+## Docs Website: [https://projekt-tejas-docs.vercel.app/](https://projekt-tejas-docs.vercel.app/)
+
 ## Installation
 
 ```console
