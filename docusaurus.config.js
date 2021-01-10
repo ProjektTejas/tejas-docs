@@ -1,14 +1,15 @@
 module.exports = {
   title: 'Tejas.AI Docs',
-  tagline: 'The tagline of my site',
+  tagline: 'Making AI Fast and Accesible',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'favicon/favicon.ico',
+  organizationName: 'ProjektTejas', // Usually your GitHub org/user name.
+  projectName: 'Tejas.AI', // Usually your repo name.
   themeConfig: {
+    defaultMode: 'dark',
     navbar: {
       title: 'Tejas.AI',
       logo: {
@@ -77,7 +78,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Tejas.AI, Built with Docusaurus.`,
     },
   },
   presets: [

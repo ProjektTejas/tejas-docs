@@ -1,6 +1,18 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    "ProjektTejas 🔥": [
+      "projekttejas/introduction",
+      "projekttejas/ideation",
+      "projekttejas/architecture",
+      "projekttejas/deployment",
+      "projekttejas/future-work",
+    ],
+    "Journey 🧳": [
+      "logs/log-overview",
+      "logs/old-plan",
+      "logs/log-backend",
+      "logs/log-frontend",
+      "logs/deadlines"
+    ],
   },
 };
