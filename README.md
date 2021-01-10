@@ -1,6 +1,19 @@
-# Website
+<h1 align="center">Tejas.AI 🔥- Docs</h1>
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+---
+
+<div align="center">
+<img src="../tejas-docs/static/logo/logo-whitemdpi.png" >
+</div>
+
+> Tejas (तेजस) means brain, flame, glow, radiance (just like my models :p)
+
+---
+
+This repository is simply the docs for my website, like usage, journey, how it was deployed, future work, architecture etc.
+
+![maintainer](https://img.shields.io/badge/maintainer-shadowleaf-blue)
+![GitHub stars](https://img.shields.io/github/stars/ProjektTejas/tejas-docs?style=social)
 
 ## Installation
 
@@ -14,20 +27,12 @@ yarn install
 yarn start
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
 ## Build
 
 ```console
 yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<h3 align="center">Made with 💘 by Satyajit Ghana</h3>

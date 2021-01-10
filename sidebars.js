@@ -2,6 +2,7 @@ module.exports = {
   someSidebar: {
     "ProjektTejas 🔥": [
       "projekttejas/introduction",
+      "projekttejas/demo",
       "projekttejas/ideation",
       "projekttejas/architecture",
       "projekttejas/deployment",
@@ -10,9 +11,10 @@ module.exports = {
     "Journey 🧳": [
       "logs/log-overview",
       "logs/old-plan",
+      "logs/new-plan",
       "logs/log-backend",
       "logs/log-frontend",
-      "logs/deadlines"
+      "logs/log-deadlines"
     ],
   },
 };

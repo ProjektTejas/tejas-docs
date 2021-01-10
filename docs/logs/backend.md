@@ -17,3 +17,12 @@ Another benefit of this is that the remaining 500MB can be used to temporarily s
 - This is really nice !: <https://aws.amazon.com/blogs/aws/new-a-shared-file-system-for-your-lambda-functions/>
 - This too: <https://aws.amazon.com/blogs/compute/building-deep-learning-inference-with-aws-lambda-and-amazon-efs/>
 - Use the `lambci/lambda` and create the python dependencies, then transfer then over to an EC2 instance attached with the EFS storage via SCP.
+
+[10-01-21]
+
+- What i had planned worked !
+- I was able to mount the python dependencies and successfully use PyTorch 1.7.0 with both by Lambdas
+- Key thing to note is that i wasn't able to work with Celery, and instead created my own Task processor using Lambda
+- So basically we push the dataset to S3 and an event is fired that starts Lambda and it trains the model, saves it in EFS and updates the task status in the DynamoDB
+
+> I Wrote a Blog on this <https://satyajitghana.medium.com/working-with-large-dependencies-500mb-with-aws-lambda-and-efs-amazon-elastic-file-system-137509e03c1a>
